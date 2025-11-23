@@ -17,16 +17,6 @@
 Задание 1
 <img width="804" height="1010" alt="image" src="https://github.com/user-attachments/assets/2e989661-e5ec-479f-9c8a-bf686ec461d7" />
 
-def fib(n):
-    a, b = 1, 1
-    for _ in range(n):
-        yield a
-        a, b = b, a + b
-
-fib_numbers = list(fib(200))
-print(fib_numbers)
-
-
 
 Задание 2
 <img width="577" height="450" alt="image" src="https://github.com/user-attachments/assets/cbeae1fa-fb03-48c7-a77a-b69f0d6b6591" />
